@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg_icon"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.73"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/old_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Old Password"
+            android:inputType="numberPassword"
+            android:maxLength="11"
+            android:textColor="@android:color/holo_blue_light" />
+
+        <EditText
+            android:id="@+id/new_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="New Password"
+            android:inputType="numberPassword"
+            android:maxLength="18"
+            android:textColor="@android:color/holo_blue_light" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/sure_modify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/button_selector_draw"
+                android:text="Modify"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_selector_draw"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_blue_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

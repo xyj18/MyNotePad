@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/modifypsw"
+        android:icon="@drawable/psw"
+        android:title="修改密码" />
+    <item
+        android:id="@+id/secretDaily"
+        android:icon="@drawable/file"
+        android:title="加锁日记" />
+    <item
+        android:id="@+id/modifyinfo"
+        android:icon="@drawable/info"
+        android:title="修改信息" />
+    <item
+        android:id="@+id/to_login"
+        android:icon="@drawable/dress1"
+        android:title="注销" />
+    <item
+        android:id="@+id/to_out"
+        android:icon="@drawable/exit"
+        android:title="退出" />
+
+</menu>
